@@ -1,0 +1,62 @@
+CPU scheduling algorithm: pnp
+Total number of CPU requests: 5
+----------------------------------------------------------
+Clock: 0
+Pending CPU request(s):
+None
+----------------------------------------------------------
+Clock: 2
+Pending CPU request(s):
+0 2 3 2
+1 2 1 3
+
+CPU Request serviced during this clock interval: 0 2 3 2
+----------------------------------------------------------
+Clock: 5
+Pending CPU request(s):
+1 2 1 3
+
+CPU Request serviced during this clock interval: 1 2 1 3
+----------------------------------------------------------
+Clock: 6
+Pending CPU request(s):
+None
+----------------------------------------------------------
+Clock: 8
+Pending CPU request(s):
+3 8 4 3
+5 8 3 3
+
+CPU Request serviced during this clock interval: 3 8 4 3
+----------------------------------------------------------
+Clock: 12
+Pending CPU request(s):
+5 8 3 3
+
+CPU Request serviced during this clock interval: 5 8 3 3
+----------------------------------------------------------
+Clock: 15
+Pending CPU request(s):
+2 15 2 4
+
+CPU Request serviced during this clock interval: 2 15 2 4
+----------------------------------------------------------
+Turn-Around Time Computations
+
+TAT(0) = 3
+TAT(1) = 4
+TAT(3) = 4
+TAT(5) = 7
+TAT(2) = 2
+
+Average TAT = 4.0
+----------------------------------------------------------
+Wait Time Computations
+
+WT(0) = 0
+WT(1) = 3
+WT(3) = 0
+WT(5) = 4
+WT(2) = 0
+
+Average WT = 1.4

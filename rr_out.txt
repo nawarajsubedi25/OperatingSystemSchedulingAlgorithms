@@ -1,0 +1,162 @@
+CPU scheduling algorithm: rr
+Total number of CPU requests: 5
+----------------------------------------------------------
+Clock: 0
+Pending CPU request(s): 
+0 0 8
+1 0 1
+2 0 5
+3 0 3
+4 0 1
+
+CPU Request serviced during this clock interval: 0 0 8
+----------------------------------------------------------
+Clock: 1
+Pending CPU request(s): 
+0 0 7
+1 0 1
+2 0 5
+3 0 3
+4 0 1
+
+CPU Request serviced during this clock interval: 1 0 1
+----------------------------------------------------------
+Clock: 2
+Pending CPU request(s): 
+0 0 7
+2 0 5
+3 0 3
+4 0 1
+
+CPU Request serviced during this clock interval: 2 0 5
+----------------------------------------------------------
+Clock: 3
+Pending CPU request(s): 
+0 0 7
+2 0 4
+3 0 3
+4 0 1
+
+CPU Request serviced during this clock interval: 3 0 3
+----------------------------------------------------------
+Clock: 4
+Pending CPU request(s): 
+0 0 7
+2 0 4
+3 0 2
+4 0 1
+
+CPU Request serviced during this clock interval: 4 0 1
+----------------------------------------------------------
+Clock: 5
+Pending CPU request(s): 
+0 0 7
+2 0 4
+3 0 2
+
+CPU Request serviced during this clock interval: 0 0 7
+----------------------------------------------------------
+Clock: 6
+Pending CPU request(s): 
+0 0 6
+2 0 4
+3 0 2
+
+CPU Request serviced during this clock interval: 2 0 4
+----------------------------------------------------------
+Clock: 7
+Pending CPU request(s): 
+0 0 6
+2 0 3
+3 0 2
+
+CPU Request serviced during this clock interval: 3 0 2
+----------------------------------------------------------
+Clock: 8
+Pending CPU request(s): 
+0 0 6
+2 0 3
+3 0 1
+
+CPU Request serviced during this clock interval: 0 0 6
+----------------------------------------------------------
+Clock: 9
+Pending CPU request(s): 
+0 0 5
+2 0 3
+3 0 1
+
+CPU Request serviced during this clock interval: 2 0 3
+----------------------------------------------------------
+Clock: 10
+Pending CPU request(s): 
+0 0 5
+2 0 2
+3 0 1
+
+CPU Request serviced during this clock interval: 3 0 1
+----------------------------------------------------------
+Clock: 11
+Pending CPU request(s): 
+0 0 5
+2 0 2
+
+CPU Request serviced during this clock interval: 0 0 5
+----------------------------------------------------------
+Clock: 12
+Pending CPU request(s): 
+0 0 4
+2 0 2
+
+CPU Request serviced during this clock interval: 2 0 2
+----------------------------------------------------------
+Clock: 13
+Pending CPU request(s): 
+0 0 4
+2 0 1
+
+CPU Request serviced during this clock interval: 0 0 4
+----------------------------------------------------------
+Clock: 14
+Pending CPU request(s): 
+0 0 3
+2 0 1
+
+CPU Request serviced during this clock interval: 2 0 1
+----------------------------------------------------------
+Clock: 15
+Pending CPU request(s): 
+0 0 3
+
+CPU Request serviced during this clock interval: 0 0 3
+----------------------------------------------------------
+Clock: 16
+Pending CPU request(s): 
+0 0 2
+
+CPU Request serviced during this clock interval: 0 0 2
+----------------------------------------------------------
+Clock: 17
+Pending CPU request(s): 
+0 0 1
+
+CPU Request serviced during this clock interval: 0 0 1
+----------------------------------------------------------
+Turn-Around Time Computations
+TAT(0) = 18
+TAT(1) = 2
+TAT(2) = 15
+TAT(3) = 11
+TAT(4) = 5
+
+Average TAT =10.2
+----------------------------------------------------------
+Wait Time Computations
+
+WT(0) = 10
+WT(1) = 1
+WT(2) = 10
+WT(3) = 8
+WT(4) = 4
+
+Average WT = 6.6
